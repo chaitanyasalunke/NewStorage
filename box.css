@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+.boxtype{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    flex-basis: 20%;
+    background-color: rgb(3, 3, 3);
+    margin-left: 100px;
+    cursor: pointer;
+}
+.card :hover{
+    transform: translateY(-20px);
+    transition: 0.3s linear;
+}
+
+.card-title1{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(244, 248, 19);
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(9, 226, 255, 0.5)), url("resume-template-1.png");
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+.card-title2{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(244, 248, 19);
+    background-image:linear-gradient(rgba(255,255,255,0.2),rgba(244, 50, 50, 0.5)), url("resume-temp.png");
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+.card-title3{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(200, 255, 236);
+    background-image:linear-gradient(rgba(255,255,255,0.2),rgba(251, 15, 231, 0.5)), url("resume-formats.webp");
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+
+.card-body{
+padding: 15px;
+margin-right: 10px;
+}
+
+h2{
+    margin: 10px;
+}
+
+.tap1{
+    padding: 5px;
+    background-color: rgba(9, 226, 255, 0.5);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.tap2{
+    padding: 5px;
+    background-color: rgba(244, 50, 50, 1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.tap3{
+    padding: 5px;
+    background-color: rgba(251, 15, 231, 1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0;
+}

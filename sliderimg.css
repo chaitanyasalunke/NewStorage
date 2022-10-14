@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.pitureslider{
+    width: 60%;
+    height: 600px;
+    background-image: url("woman-emage.png.png");
+    background-size: 100% 100%;
+    animation: changePiture 2s linear 2s infinite ;
+}
+
+@keyframes changePiture{
+    20%{
+        background-image: url("woman-emage.png.png");;
+    }
+    60%{
+        background-image: url("young-man.png");;
+    }
+   
+}
